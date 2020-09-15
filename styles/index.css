@@ -11,7 +11,10 @@ main {
 	max-width: 800px;
 	width: 90%;
 	margin: auto;
-	padding: 40px;
+    padding: 40px;
+}
+form{
+    margin-top: 20% ;
 }
 
 .formulario {
@@ -104,7 +107,7 @@ main {
 	height: 45px;
 	line-height: 45px;
 	width: 30%;
-	background: #000;
+	background: #d65a02;
 	color: #fff;
 	font-weight: bold;
 	border: none;
@@ -122,14 +125,16 @@ main {
 	color: #119200;
 	display: none;
 }
-
+.center{
+    margin-top: 40px;
+}
 .formulario__mensaje-exito-activo {
 	display: block;
 }
 
 /* ----- -----  Estilos para Validacion ----- ----- */
 .formulario__grupo-correcto .formulario__validacion-estado {
-	color: #1ed12d;
+	color: #d65a02;
 	opacity: 1;
 }
 
